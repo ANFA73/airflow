@@ -6,7 +6,7 @@ from datetime import datetime
 def helloWorld():
     print('Helloworld!')
 
-with DAG(dag_id="hello_world_dag",
+with DAG(dag_id="hello_world_dag_2",
         start_date=datetime(2021,1,1),
         schedule_interval="@hourly",
         catchup=False) as dag:
